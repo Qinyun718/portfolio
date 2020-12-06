@@ -2,13 +2,192 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+	<script src="functionality.js"></script>
+	<script src="bootstrap.bundle.js"></script>
   </head>
 
-  <body>
+  <body class="text-overall">
     <!-- TODO: put your HTML code here! -->
+
+    <nav class="navbar navbar-expand-sm navbar-light" style="font-size: 30px;">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdemo">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navdemo">
+          <ul class="navbar-nav nav nav-fill w-100">
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#project">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+ 
+          </ul>
+        </div>
+      </div>
+    </nav> 
+
+
+    <div class="container align-items-center aboutMe" id="about">
+    	<!-- personal image -->
+    	<div class="row">
+	    	<div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+	    		<img src="intro.jpg" class="intro-img">
+	    	</div>
+
+	    	<!-- self intro -->
+	    	<div class="col-sm-12 col-md-12 col-lg-6 pt-5 aboutMe-text">
+	    		<h1>About Me</h1>
+	    		<h2>Hello, I am XXX! I am a passionate person with both my professional and personal life :) </h2>
+	    		<img src="intro2.png" class="intro-img">
+	    	</div>
+   		</div>
+
+    </div>
+
+    <hr>
+
+    
+    
+    
+
+
+    <!-- Project contents -->
+    <div class="container align-items-center" id="project">
+    	<h2>Heyyy, Welcome to my portfolio! &#128149;</h2>
+    	<!-- Project 1 -->
+    	<div class="project row">
+	    	
+    		<div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+    			<h3>
+    				Persona & Storyboarding
+    			</h3>
+
+    			<h4>Course Project | CSCI 1300</h4>
+    			<p>Solving Problem: Establish clear personas for designated groups of people based on observations</p>
+    			<p>Target Audience: Sales and customers of the washing machine</p>
+    			<p>Design Iterations: From the interview results and observations from target people, both personas and storyboarding could be created to help target audience understand the users of the washing machine</p>
+    			<p>Conclusion: This project helps me with learning the whole process of building up personas and understanding users’ behaviors based on observations</p>
+    			
+    			<a href="https://infinite-earth-06518.herokuapp.com" class="btn btn-outline-secondary" role="button">Click to see details</a>
+    			<!-- <button><a href="https://infinite-earth-06518.herokuapp.com"> Click to see details</a></button> -->
+	    	</div>
+
+	    	<!-- self intro -->
+	    	<div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+	    		<div class="container justify-content-center align-items-center">
+	    			<img src="persona.png" class="intro-img">
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+
+    	<!-- Project 2 -->
+    	<div class="project row">
+	    	
+    		<div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+    			<h3>
+    				Redesign
+    			</h3>
+
+    			<h4>Course Project | CSCI 1300</h4>
+    			<p>Solving Problem: Provide higher efficiency for the original website users</p>
+    			<p>Target Audience: Customers and the owner of the Laosichuan restaurant </p>
+    			<p>Design Iterations: Starting from observing the layout, my design rearranged the positions of five different branches and their shared information in order to make it more organized and more straightforward</p>
+    			<p>Conclusion: This project helps me to learn some usability principles and how to apply them to the real business </p>
+
+    			<a href="https://redesign-writeup.herokuapp.com" class="btn btn-outline-secondary" role="button">Click to see details</a>
+	    	</div>
+
+	    	<!-- self intro -->
+	    	<div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+	    		<div class="container justify-content-center align-items-center">
+	    			<img src="redesign.png" class="intro-img">
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+
+
+    	<!-- Project 3 -->
+    	<div class="project row">
+	    	
+    		<div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+    			<h3>
+    				Iterative Design
+    			</h3>
+
+    			<h4>Course Project | CSCI 1300</h4>
+    			<p>Solving Problem: Brainstorm some design ideas for a startup company - Gather</p>
+    			<p>Target Audience: Owner of the Gather App</p>
+    			<p>Design Iterations: Starting from sketches of different layout and ideas, we mainly used Figma to create a prototype for the Gather App</p>
+    			<p>Conclusion: This project helps me to get familiar with the real App and understand user experience from user testing </p>
+
+    			<a href="https://obscure-bastion-71661.herokuapp.com" class="btn btn-outline-secondary" role="button">Click to see details</a>
+	    	</div>
+
+	    	<!-- self intro -->
+	    	<div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+	    		<div class="container justify-content-center align-items-center">
+	    			<img src="iterative.png" class="intro-img">
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+
+
+    	<!-- Project 4 -->
+    	<div class="project row">
+	    	
+    		<div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+    			<h3>
+    				Development
+    			</h3>
+
+    			<h4>Course Project | CSCI 1300</h4>
+    			<p>Solving Problem: Help audiences to get to know more about the heroes in the Chinese game and apply some functionalities</p>
+    			<p>Target Audience: Anyone</p>
+    			<p>Design Iterations: While displaying all the heroes, I implemented the functionalities to filter and sort and created a shopping cart to display the aggregation function</p>
+    			<p>Conclusion: This project helps me to learn the implementation of the functionality in the React environment</p>
+
+    			<a href="https://development-writeup.herokuapp.com" class="btn btn-outline-secondary" role="button">Click to see details</a>
+	    	</div>
+
+	    	<!-- self intro -->
+	    	<div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+	    		<div class="container justify-content-center align-items-center">
+	    			<img src="development.png" class="intro-img">
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+    </div>
+    <hr>
+
+    <!-- Contact -->
+    <div class="container" id="contact">
+
+	<h1>Contact Me :)</h1>
+	<form class="cf">
+	  <div class="half left cf">
+	    <input type="text" id="input-name" placeholder="Name">
+	    <input type="email" id="input-email" placeholder="Email address">
+	    <input type="text" id="input-subject" placeholder="Subject">
+	  </div>
+	  <div class="half right cf">
+	    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+	  </div>  
+	  <input type="submit" value="Submit" class="btn btn-outline-secondary" >
+	</form>
+
+
+    </div>
+
   </body>
 </html>
